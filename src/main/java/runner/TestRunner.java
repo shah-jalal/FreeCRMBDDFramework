@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 			glue={"stepDefinitions"}, 
 			format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 			monochrome = true, 
-			strict = true, 
-			dryRun = false
+//			strict = true, 
+			dryRun = true
 			//tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}			
 			)
 	 
