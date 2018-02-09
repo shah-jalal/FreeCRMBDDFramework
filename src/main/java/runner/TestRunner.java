@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features = "/Users/apple/gitProjects/FreeCRMBDDFramework/src/main/java/features", 
+			features = "/Users/mac/GitProject/FreeCRMBDDFramework/src/main/java/features", 
 			glue={"stepDefinitions"}, 
 			format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 			monochrome = true, 

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.244123">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="4.244123">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.562014">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="4.562014">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "naveenk" and "test@123"...................................passed

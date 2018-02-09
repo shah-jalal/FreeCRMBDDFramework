@@ -17,7 +17,7 @@ public class LoginStepDefinition {
 	
 	@Given("^user is already on Login Page$")
 	public void user_is_already_on_Login_Page() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "/Users/apple/Downloads/Browser_driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/mac/Downloads/BrowserDriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
 
