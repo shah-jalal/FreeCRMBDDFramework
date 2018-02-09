@@ -12,7 +12,7 @@ Then user is on home page
 When user moves to new contact page
 And user enters contact details "<firstname>" and "<lastname>" and "<position>"
 And click on save button
-Then new ontact generated
+Then user close the browser
 
 Examples:
 	| username | password | firstname | lastname | position |

@@ -68,7 +68,7 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "new ontact generated",
+  "name": "user close the browser",
   "keyword": "Then "
 });
 formatter.examples({
@@ -112,6 +112,10 @@ formatter.examples({
     }
   ],
   "keyword": "Examples"
+});
+formatter.before({
+  "duration": 1510939478,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 19,
@@ -172,20 +176,22 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "new ontact generated",
+  "name": "user close the browser",
   "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5991754618,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10651788,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -201,25 +207,30 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_and(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 210929160,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1187417406,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5757716,
+  "status": "passed"
 });
 formatter.match({
   "location": "ContactsStepDefinition.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 65099948841,
+  "error_message": "org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027macs-MacBook-Pro-6.local\u0027, ip: \u0027172.16.4.98\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u00271.8.0_91\u0027\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:982)\n\tat stepDefinitions.ContactsStepDefinition.user_moves_to_new_contact_page(ContactsStepDefinition.java:42)\n\tat ✽.When user moves to new contact page(contacts.feature:12)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -248,10 +259,14 @@ formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.new_ontact_generate()"
+  "location": "LoginStepDefinition.user_close_the_browser()"
 });
 formatter.result({
   "status": "skipped"
+});
+formatter.before({
+  "duration": 919237986,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 20,
@@ -312,20 +327,22 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "new ontact generated",
+  "name": "user close the browser",
   "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3045882066,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6296451,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -341,25 +358,30 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_and(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 185824853,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1373433891,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5035818,
+  "status": "passed"
 });
 formatter.match({
   "location": "ContactsStepDefinition.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 60097392937,
+  "error_message": "org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027macs-MacBook-Pro-6.local\u0027, ip: \u0027172.16.4.98\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u00271.8.0_91\u0027\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:982)\n\tat stepDefinitions.ContactsStepDefinition.user_moves_to_new_contact_page(ContactsStepDefinition.java:42)\n\tat ✽.When user moves to new contact page(contacts.feature:12)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -388,7 +410,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.new_ontact_generate()"
+  "location": "LoginStepDefinition.user_close_the_browser()"
 });
 formatter.result({
   "status": "skipped"
@@ -508,17 +530,13 @@ formatter.examples({
       ],
       "line": 26,
       "id": "free-crm-login-feature;free-crm-login-test-scenario;;2"
-    },
-    {
-      "cells": [
-        "tomk",
-        "tom@123"
-      ],
-      "line": 27,
-      "id": "free-crm-login-feature;free-crm-login-test-scenario;;3"
     }
   ],
   "keyword": "Examples"
+});
+formatter.before({
+  "duration": 903566560,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
@@ -566,13 +584,15 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1913783408,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7051347,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -588,112 +608,28 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_and(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 181431645,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1001886594,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6577163,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 27,
-  "name": "Free CRM Login Test Scenario",
-  "description": "",
-  "id": "free-crm-login-feature;free-crm-login-test-scenario;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 17,
-  "name": "user is already on Login Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "title of login page is Free CRM",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "user enters \"tomk\" and \"tom@123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "user clicks on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "user close the browser",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "tomk",
-      "offset": 13
-    },
-    {
-      "val": "tom@123",
-      "offset": 24
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_and(String,String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_clicks_on_login_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_home_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_close_the_browser()"
-});
-formatter.result({
-  "status": "skipped"
+  "duration": 77750104,
+  "status": "passed"
 });
 });
