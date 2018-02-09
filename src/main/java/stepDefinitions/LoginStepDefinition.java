@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -16,30 +17,30 @@ public class LoginStepDefinition {
 	WebDriver driver;
 	
 	@Given("^user is already on Login Page$")
-	public void user_is_already_on_Login_Page() throws Throwable {
+	public void user_is_already_on_Login_Page() {
 		System.setProperty("webdriver.chrome.driver", "/Users/mac/Downloads/BrowserDriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
 
 	}
 
-	@When("^title of login page is Free CRM$")
-	public void title_of_login_page_is_Free_CRM() throws Throwable {
+	@Then("^title of login page is Free CRM$")
+	public void title_of_login_page_is_Free_CRM() {
 	    String title = driver.getTitle();
 	    System.out.println("Login Page Title; " + title);
 	    Assert.assertEquals("#1 Free CRM for Any Business: Online Customer Relationship Software", title);
 	    
 	}
 
-	@Then("^user enters \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void user_enters_and(String usrName, String passWrd) throws Throwable {
+	@When("^user enters \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void user_enters_and(String usrName, String passWrd) {
 	    driver.findElement(By.name("username")).sendKeys(usrName);
 	    driver.findElement(By.name("password")).sendKeys(passWrd);
 	    
 	}
 
-	@Then("^user clicks on login button$")
-	public void user_clicks_on_login_button() throws Throwable {
+	@And("^user clicks on login button$")
+	public void user_clicks_on_login_button() {
 		WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", loginBtn);
@@ -47,11 +48,16 @@ public class LoginStepDefinition {
 	}
 
 	@Then("^user is on home page$")
-	public void user_is_on_home_page() throws Throwable {
+	public void user_is_on_home_page() {
 	    String title = driver.getTitle();
 	    System.out.println("Home Page Title: " + title);
 	    Assert.assertEquals("CRMPRO", title);
 	    
+	}
+	
+	@Then("^user close the browser$")
+	public void user_close_the_browser() {
+	   driver.quit();
 	}
 
 }
