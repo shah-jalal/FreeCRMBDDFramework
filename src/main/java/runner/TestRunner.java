@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 			format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 			monochrome = true, 
 			strict = true, 
-			dryRun = false 
+			dryRun = false
 			//tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}			
 			)
 	 
@@ -25,6 +25,8 @@ import cucumber.api.junit.Cucumber;
  * glue={"the path of stepDefinitions"}
  * format= {to generate different types of reporting}
  * monochrome = display the console output in a proper readable format
- * strict = it will check if any step is not defined in step definition file
- * dryRun = to check the mapping is proper between feature file and step_def file
+ * strict = it will check if any step is not defined in step definition file (Note that it will execute 
+ * the actual test
+ * dryRun = to check the proper mapping between feature_file and step_def_file (Note that it will 
+ * not execute the actual test)
  */

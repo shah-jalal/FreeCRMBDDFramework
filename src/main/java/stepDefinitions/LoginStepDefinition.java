@@ -31,6 +31,9 @@ public class LoginStepDefinition {
 	    
 	}
 
+	// Regular Expression Option:
+	// 1. \"(.*)\" -> any character (except a newline)
+	// 2. \"([^\"]*\") -> matching something (or nothing) in double quotes
 	@Then("^user enters \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_enters_and(String usrName, String passWrd) throws Throwable {
 	    driver.findElement(By.name("username")).sendKeys(usrName);

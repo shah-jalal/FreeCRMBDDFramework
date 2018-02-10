@@ -1,6 +1,12 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
 formatter.feature({
-  "line": 1,
+  "comments": [
+    {
+      "line": 1,
+      "value": "#Author: Shah Jalal"
+    }
+  ],
+  "line": 2,
   "name": "Free CRM Login Feature",
   "description": "",
   "id": "free-crm-login-feature",
@@ -49,15 +55,13 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 2837397526,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 8234772,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -73,21 +77,18 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 198409272,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1195135002,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 4946830,
-  "status": "passed"
+  "status": "skipped"
 });
 });
